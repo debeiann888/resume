@@ -1,0 +1,149 @@
+div {
+	border-radius: 5px;
+	
+}
+
+#header  {
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: pink;
+	margin-bottom: 10px;
+}
+
+#name {
+	float:left;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana;
+	color: black;
+}
+
+
+
+#email{
+	float:right;
+	margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: cursive;
+	color: darkblue;
+}
+
+
+h4 {
+	margin-left: 5px;
+	margin-bottom: 15px;
+	font-family: Verdana, sans-serif;
+	text-decoration: u
+}
+
+.right p {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-family: cursive;
+	color: #000000;
+}
+
+li {
+	list-style-type: square;
+	font-family: cursive;
+
+}
+ul{
+	list-style-type: square;
+	font-family: cursive;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.left {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 10%;
+	height: 400px;
+	
+	margin-bottom: 10px;
+}
+
+.right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 850px;
+
+	margin-bottom: 10px;
+}
+
+#footer {
+	position: relative;
+	height: 50px;
+	width: 97.5;
+	background-color: pink;
+	clear: both;
+	font-family: cursive;
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	margin-top: 60px;
+
+
+	
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
+}
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+.blink {
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+     animation: blink .75s linear infinite;
+     
+
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
